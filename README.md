@@ -19,7 +19,7 @@
 2. Nowo dodane produkty przechowywane są w localStorage
 
 
-// Stylowanie w tym projekcie jest bardzo podstawowe (nie jest też responsywny).
+// Stylowanie w tym projekcie jest na bardzo podstawowym poziomie (nie jest też responsywny).
 Główny nacisk został położony na funkcjonalność (w stopniu, jaki można było uzyskać bez korzystania z baz danych).
-Wykorzystano fundamentalne elementy JS, w tym elementy programowania zorientowanego obiektowo.
+Wykorzystano fundamentalne elementy JS, w tym elementy programowania zorientowanego obiektowo i localStorage.
 

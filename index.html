@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Pszczółka Maja</title>
+</head>
+
+<body>
+<h1 class="welcome">Witaj w naszym sklepie 🐝️ </h1>
+
+<div class="wrapper">
+<section class="products">
+  <h1 >Oferowane produkty</h1>
+    <ul class="products-list">
+        <li><strong>Miód gryczany (0.9l)</strong> - 59.99 zł <button class="btn-buy" data-name="Miód gryczany (0.9l)" data-price="59.99"> Do koszyka </button></li>
+        <li> <strong>Nalewka z propolisa (0.25l)</strong> - 25 zł <button class="btn-buy" data-name="Nalewka z propolisa (0.25l)" data-price="25"> Do koszyka </button></li>
+        <li> <strong>Pyłek kwiatowy (1kg)</strong> - 65 zł <button class="btn-buy" data-name="Pyłek kwiatowy (1kg)" data-price="65"> Do koszyka </button></li>
+    </ul>
+</section>
+
+<section class="basket">
+    <h1>Twój koszyk</h1>
+    <ul class="basket-list"></ul>
+    <button class="btn-buy-all" disabled>Złóż zamówienie</button>
+</section>
+
+<section class="admin-add-product">
+    <h1> Administracja </h1>
+    <h3> Dodaj produkt </h3>
+    <form class="form-add-product">
+        <input type="text" name = "product-name" placeholder = "Podaj nazwę" required>
+        <input type="number" step="0.01" name = "product-price" placeholder ="Podaj cenę" required>
+        <button class="submit" type="submit">Dodaj</button>
+    </form>
+</section>
+</div>
+
+<script src="./src/basket.js"></script>
+<script src="./src/ui.js"></script>
+<script src="./src/admin.js"></script>
+</body>
+</html>

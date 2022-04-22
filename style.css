@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url("honeycomb_1920.jpg");
+}
+.welcome {
+    margin: 30px auto;
+    text-align: center;
+}
+h1 {
+    margin-bottom: 10px;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+section {
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+ul {
+    list-style-type:none;
+}
+
+.btn-buy,
+.btn-buy-all,
+input, .submit {
+    margin: 5px auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+.btn-buy-all {
+    margin-top: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}

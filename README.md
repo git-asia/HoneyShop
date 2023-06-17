@@ -1,4 +1,4 @@
-# HoneyShop
+# HoneyShop 🐝
 ## OOP Project: shop with basket and admin panel.
 
 ### Opis projektu
@@ -19,6 +19,6 @@
 2. Nowo dodane produkty przechowywane są w localStorage
 
 
-// Stylowanie w tym projekcie jest na bardzo podstawowym poziomie (nie jest też responsywny).
+🦋 Stylowanie w tym projekcie jest na bardzo podstawowym poziomie (nie jest też responsywny).
 Główny nacisk został położony na funkcjonalność (w stopniu, jaki można było uzyskać bez korzystania z baz danych).
 Wykorzystano fundamentalne elementy JS, w tym elementy programowania zorientowanego obiektowo i localStorage.

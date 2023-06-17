@@ -1,11 +1,13 @@
+import addProductToBasket from './ui';
+
 const addProductForm = document.querySelector('.form-add-product');
 const inputName = document.querySelector('[name = "product-name"]');
 const inputPrice = document.querySelector('[name = "product-price"]');
 const productsList = document.querySelector('.products-list');
 
 // --------- Dodawanie nowo stworzonych produktów do localStorage -------
-// (ten sposób nie jest optymalny — lepsza była suma logiczna użyta w Baskecie
-// — ale też często spotykany)
+// ten sposób nie jest optymalny — lepsza była suma logiczna użyta w Baskecie
+// — ale też często spotykany
 
 const saveAddedProductToLS = (name, price) => {
   // Pobieramy dotychczasową listę produktów

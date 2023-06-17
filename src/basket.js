@@ -1,4 +1,5 @@
-class Basket {
+export class Basket {
+  // eslint-disable-next-line max-len
   // Początkowo tworzymy pusty koszyk — tablicę obiektów, kt docelowo będzie zawierała przechowywane w koszyku produkty.
   // Po dodaniu opcji localStorage modyfikujemy nasz konstruktor, który teraz będzie zawierał odniesienie do metody zwracającej dane z lS.
   //! Konstruktory działają synchronicznie – dopóki nie dostaniemy danych z lS, kod nie pójdzie dalej.
@@ -75,7 +76,7 @@ class Basket {
   }
 }
 
-class Product {
+export class Product {
   constructor(productName, productPrice) {
     this.name = productName;
     this.price = productPrice;

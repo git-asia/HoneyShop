@@ -1,3 +1,5 @@
+import { Basket, Product } from './basket';
+
 const basketList = document.querySelector('.basket-list');
 const buyAllBtn = document.querySelector('.btn-buy-all');
 // Od razu tworzymy tablicę
@@ -69,6 +71,7 @@ const buyAllProducts = () => {
   createBasketList();
 };
 // Robimy pętle, żeby dodać aEL na wszystkie przyciski
+
 for (const btn of buyBtns) {
   btn.addEventListener('click', addProductToBasket);
 }
@@ -77,3 +80,5 @@ buyAllBtn.addEventListener('click', buyAllProducts);
 
 // Budujemy widok koszyka — jak nam się wczyta strona, to chcemy od razu zobaczyć zawartość koszyka
 createBasketList();
+
+export default addProductToBasket;
